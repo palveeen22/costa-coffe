@@ -1,13 +1,13 @@
-import { TMenuItem as MenuItemType } from '../types';
+import { TMenuItem as MenuItemType, TImageCategory, TTextCategory } from '../types';
 
-export const filterMenu: (string | { uri: string })[] = [
-    { uri: 'https://utfs.io/f/EbyVGwMXeijrE2NsYAXeijrKsCGtR1xBUM5JP4DuQXlbom0L' },
-    // '↑↓',
+export const imageCategories: TImageCategory = 'https://utfs.io/f/EbyVGwMXeijrE2NsYAXeijrKsCGtR1xBUM5JP4DuQXlbom0L';
+
+  export const textCategories: TTextCategory[] = [
     'Новинки',
     'Лучшее',
     'Суперкэшбек',
     'Горячие блюда',
-];
+  ];
 
 // export const filterMenu: string[] = [
 //     // { uri: 'https://utfs.io/f/EbyVGwMXeijrE2NsYAXeijrKsCGtR1xBUM5JP4DuQXlbom0L' },
