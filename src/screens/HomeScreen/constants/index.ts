@@ -1,21 +1,11 @@
-import { TMenuItem as MenuItemType, TImageCategory, TTextCategory } from '../types';
-
-export const imageCategories: TImageCategory = 'https://utfs.io/f/EbyVGwMXeijrE2NsYAXeijrKsCGtR1xBUM5JP4DuQXlbom0L';
-
-  export const textCategories: TTextCategory[] = [
+import { TMenuItem as MenuItemType, TCategoryType } from '../types';
+export const filterMenu: TCategoryType[] = [
+    { uri: 'https://utfs.io/f/EbyVGwMXeijrE2NsYAXeijrKsCGtR1xBUM5JP4DuQXlbom0L' },
     'Новинки',
     'Лучшее',
     'Суперкэшбек',
     'Горячие блюда',
-  ];
-
-// export const filterMenu: string[] = [
-//     // { uri: 'https://utfs.io/f/EbyVGwMXeijrE2NsYAXeijrKsCGtR1xBUM5JP4DuQXlbom0L' },
-//     'Новинки',
-//     'Лучшее',
-//     'Суперкэшбек',
-//     'Горячие блюда',
-// ];
+];
 
 export const menuItems: MenuItemType[] = [
     { id: 1, name: 'Яйца пашот на бриоши с пастрами', disc: 2, weight: '350 гр.', price: 540, image: 'https://s3-alpha-sig.figma.com/img/ebe9/6177/5935ef840e4ae77d7511a27eace204c9?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fJPO7zAHUQYiQuXTNhgRMUhQGSBf8K7yB7pXE0xxRGnJmYPdN7GnExl3iQe51fRwh6IEd7TS1rr44GBsU-DVw-Owhq9UBX9~sRIR~nGfBiqdcPusrdMRewyqdVPwrj6rhlsGTRN511RaJsbs5-eNu0PtT-YOsLyhO5LocBf49-5LSHJh0khOn-tC~MtHs4Q-pOG8gNw6ZeY6GZJKUnCzUU2Lcfaom5I86fo~LfRyPBXOUMpdc1PqzTbAO4a49I8ZES71bcWYa6b4Ms9PUJNPTFlyioH1foapqyekDTxTfijK6Fpb5ldsUqUYWBI05K-ypWNikjohqG55gXYojHScmA__' },

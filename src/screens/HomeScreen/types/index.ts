@@ -11,6 +11,6 @@ export type TOrderItem = {
 }
 // export type TCategoryType = string | { uri: string };
 
-export type TImageCategory = string;
+export type TImageCategory = { uri: string };
 export type TTextCategory = string;
 export type TCategoryType = TTextCategory | TImageCategory;
